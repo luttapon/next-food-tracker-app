@@ -78,7 +78,7 @@ const AddFood = () => {
         <h1 className="text-3xl font-extrabold text-center mb-6 text-black" >Add Food</h1>
 
         <form onSubmit={handleSubmit} className="space-y-6">
-          {/* Food Name Input */}
+          
           <div>
             <label htmlFor="name" className="block text-lg font-medium mb-1 text-black">
               ชื่ออาหาร
