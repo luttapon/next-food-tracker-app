@@ -64,7 +64,7 @@ const Profile = () => {
     // Main container with a vibrant background
     <div className="min-h-screen flex flex-col items-center p-4 bg-gradient-to-r from-green-400 via-cyan-500 to-blue-500 text-white">
       {/* Profile Card */}
-      <div className="bg-black bg-opacity-30 rounded-3xl shadow-2xl p-8 w-full max-w-lg mx-auto my-8">
+      <div className="bg-orange bg-opacity-30 rounded-3xl shadow-2xl p-8 w-full max-w-lg mx-auto my-8">
         {/* Header with Edit Profile text and Back button */}
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl font-extrabold">Edit Profile</h1>

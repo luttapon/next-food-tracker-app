@@ -74,13 +74,13 @@ const AddFood = () => {
     // Main container with a vibrant background
     <div className="min-h-screen flex flex-col items-center p-4 bg-gradient-to-r from-green-400 via-cyan-500 to-blue-500 text-white">
       {/* Form container */}
-      <div className="bg-orange-300 bg-opacity-30 rounded-3xl shadow-2xl p-8 w-full max-w-lg mx-auto my-8">
-        <h1 className="text-3xl font-extrabold text-center mb-6">Add Food</h1>
+      <div className="bg-white bg-opacity-30 rounded-3xl shadow-2xl p-8 w-full max-w-lg mx-auto my-8">
+        <h1 className="text-3xl font-extrabold text-center mb-6 text-black" >Add Food</h1>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Food Name Input */}
           <div>
-            <label htmlFor="name" className="block text-lg font-medium mb-1">
+            <label htmlFor="name" className="block text-lg font-medium mb-1 text-black">
               ชื่ออาหาร
             </label>
             <input
@@ -97,7 +97,7 @@ const AddFood = () => {
 
           {/* Meal Type Select */}
           <div>
-            <label htmlFor="meal" className="block text-lg font-medium mb-1">
+            <label htmlFor="meal" className="block text-lg font-medium mb-1 text-black">
               มื้ออาหาร
             </label>
             <select
@@ -115,7 +115,7 @@ const AddFood = () => {
 
           {/* Date Input */}
           <div>
-            <label htmlFor="date" className="block text-lg font-medium mb-1">
+            <label htmlFor="date" className="block text-lg font-medium mb-1 text-black">
               วันเดือนปี
             </label>
             <input
@@ -131,7 +131,7 @@ const AddFood = () => {
 
           {/* Image Input with Preview */}
           <div>
-            <label htmlFor="image" className="block text-lg font-medium mb-1">
+            <label htmlFor="image" className="block text-lg font-medium mb-1 text-black">
               รูปภาพอาหาร
             </label>
             <input

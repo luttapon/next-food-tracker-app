@@ -11,8 +11,8 @@ const Home = () => {
           <Image
             src="/images/foodTracker.jpg" // เปลี่ยนเป็น URL ของโลโก้จริง
             alt="Food Tracker Logo"
-            width={120}
-            height={120}
+            width={180}
+            height={180}
             className="mx-auto mb-4"
           />
         </div>
